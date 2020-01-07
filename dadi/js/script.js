@@ -1,6 +1,8 @@
 var dadoGiocatore1;
 var dadoGiocatore2;
 
+alert("Premi OK per lanciare i dadi")
+
 dadoGiocatore1 = Math.floor(Math.random() * 6) + 1;
 console.log(dadoGiocatore1);
 
